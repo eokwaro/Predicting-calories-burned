@@ -1,2 +1,2 @@
 # Predicting-calories-burned
-!(images/logo.png)
+![Alt text](images/logo.png)
