@@ -12,10 +12,9 @@ For most individuals joining a gym, calorie burn is a primary goal. From a busin
 **About the Dataset**
 
 The dataset contains 963 records and 15 features, representing both past and current gym clients. The goal is to predict the number of calories burned in a single session, which helps the business in:
-
-Personalizing client experiences
-Boosting client motivation
-Enhancing client retention and onboarding strategies
+Personalizing client experiences  
+Boosting client motivation  
+Enhancing client retention and onboarding strategies  
 
 **Steps Involved in Model development & Deployment**
 
