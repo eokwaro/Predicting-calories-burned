@@ -3,7 +3,6 @@
 
 # In[17]:
 
-
 import streamlit as st
 import pickle
 import numpy as np
@@ -46,11 +45,19 @@ with col2:
         # Combine with Gender
         input_array = np.column_stack((scaled_values, input_df['Gender'].values))
         
-        if Session_Duration == 0 or Fat_Percentage == 0 or Workout_Frequency < 1:
-            st.write("Please eneter a value greater than 0")
+        if Workout_Frequency < 1:
+            st.write("Workout Frequency must be at least 1 day/week.")
+        elif Session_Duration <= 0 or Fat_Percentage <= 0:
+            st.write("please enter a value greater than 0 in the Session Duration and Fat Percentage fields")
         else:
             prediction = model.predict(input_array)
-            st.success(f"Calories Burned: {prediction[0]:,.2f} Calories")
+            predicted_value = max(prediction[0], 0)
+            if predicted_value < 500:
+                st.info(f"Calories Burned: {predicted_value:,.2f} \n\nit looks like you need to put in a bit more effort to see results 😅. Try increasing your session duration")
+            elif 500 <= predicted_value < 1000:
+                st.info(f"Calories Burned: {predicted_value:,.2f} \n\nNice work! You're making progress. Keep it up and push a little more to hit that next milestone!")
+            else:
+                st.success(f"Calories Burned: {predicted_value:,.2f} \n\nAmazing! You're smashing your workouts. Keep that energy high and stay consistent!")
     else:
         st.info("Fill the form and click submit to see prediction.")
 
