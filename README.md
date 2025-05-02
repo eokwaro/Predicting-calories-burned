@@ -1,7 +1,7 @@
 # Calories Burn Predictor
 
 ## project demo link - https://caloryprediction.streamlit.app/
-![Alt text](images/logo.png)
+![Alt text](images/darkhorse.png)
 
 calories burn prediction involves estimating the number of calories likely to be burned during a gym session based on user input such as gender, session duration, workout frequency and Fat percentage. This is a critical tool for gyms aiming to motivate new clients and retain existing ones by giving personalized insights into their fitness journey.
 
