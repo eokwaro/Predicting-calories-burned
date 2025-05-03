@@ -3,7 +3,7 @@
 ## project demo link - https://calorypredictor.streamlit.app/
 ![Alt text](images/darkhorse.png)
 
-calories burn prediction involves estimating the number of calories likely to be burned during a gym session based on user input such as gender, session duration, workout frequency and Fat percentage. This is a critical tool for gyms aiming to motivate new clients and retain existing ones by giving personalized insights into their fitness journey.
+calories burn prediction involves estimating the number of calories likely to be burned during a gym session based on user input such as Average BPM, session duration, workout frequency and Fat percentage. This is a critical tool for gyms aiming to motivate new clients and retain existing ones by giving personalized insights into their fitness journey.
 
 **Why Is It Important?**
 
@@ -19,9 +19,9 @@ Enhancing client retention and onboarding strategies
 Exploratory Data Analysis (EDA)  
 Data Preprocessing  
 Feature Engineering  
-Feature Selection using statistical tests  
-Model Training with Linear Regression  
-Hyperparameter Tuning using RandomizedSearchCV  
+Feature Selection using statistical tests and feature importance
+Model Training with Random Forest Regressor 
+Hyperparameter Tuning using GridSearchCV  
 Model Serialization with Pickle  
 Web Application Development using Streamlit  
 Deployment on Streamlit Community Cloud  
@@ -38,7 +38,10 @@ streamlit
 pickle  
 
 **Project Objective**  
-To build a Linear Regression model that accurately predicts the calories burned during a gym session based on client input.
+To build a Random Forest Regressor model that accurately predicts the calories burned during a gym session based on client input. 
+
+**Evaluation Metric**
+The model's performance was evaluated using Root Mean Squared Error (RMSE), resulting in a value of 65.32 calories. This indicates that, on average, the model's predictions deviate from the actual calorie burn by approximately 65.32 calories, which represents a relative error of 7.23% compared to the mean actual calorie burn.
 
 Project Demo Link - [Click Here](https://calorypredictor.streamlit.app/)
 
