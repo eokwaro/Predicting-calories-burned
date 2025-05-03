@@ -40,5 +40,6 @@ pickle
 **Project Objective**  
 To build a Linear Regression model that accurately predicts the calories burned during a gym session based on client input.
 
-Project Demo Link - [Click Here](https://caloryprediction.streamlit.app/)
+Project Demo Link - [Click Here](https://calorypredictor.streamlit.app/)
+
 
