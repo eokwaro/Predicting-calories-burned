@@ -41,6 +41,7 @@ pickle
 To build a Random Forest Regressor model that accurately predicts the calories burned during a gym session based on client input. 
 
 **Evaluation Metric**
+
 The model's performance was evaluated using Root Mean Squared Error (RMSE), resulting in a value of 65.32 calories. This indicates that, on average, the model's predictions deviate from the actual calorie burn by approximately 65.32 calories, which represents a relative error of 7.23% compared to the mean actual calorie burn.
 
 Project Demo Link - [Click Here](https://calorypredictor.streamlit.app/)
