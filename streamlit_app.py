@@ -16,7 +16,7 @@ wf_label_encoder = pickle.load(open('wf_label_encoder.pkl', 'rb'))
 el_label_encoder = pickle.load(open('el_label_encoder.pkl', 'rb'))
 
 st.set_page_config(layout="wide")
-st.image('darkhorse.png', use_column_width=True)
+st.image('dark_horse.png', use_column_width=True)
 st.title("Calorie Burn Predictor")
 
 #Layout: form on the left, prediction on the right
