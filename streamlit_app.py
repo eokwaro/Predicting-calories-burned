@@ -32,7 +32,7 @@ with col1:
         Workout_Frequency = st.selectbox('Workout Frequency (days/week)', [2, 3, 4, 5])
         Experience_Level = st.selectbox('Experience Level', [1, 2, 3,])
         
-        submit = st.form_submit_button('Predict Calories Burned')
+        submit = st.form_submit_button('Submit')
 
 with col2:
     st.header("Prediction")
