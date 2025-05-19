@@ -17,7 +17,7 @@ Enhancing client retention and onboarding strategies
 
 **Steps Involved in Model development & Deployment**  
 descriptive analysis to extract key insights from the data using power BI  
-the link to the dashboard - [Power BI Dashboard](https://app.powerbi.com/links/jiRad3E2nE?ctid=06815d30-c3a7-41f1-ae74-0fda03852c96&pbi_source=linkShare)
+the link to the dashboard - [Power BI Dashboard](https://app.powerbi.com/links/jiRad3E2nE?ctid=06815d30-c3a7-41f1-ae74-0fda03852c96&pbi_source=linkShare)  
 Data Preprocessing  
 Feature Engineering  
 Feature Selection using statistical tests and feature importance
